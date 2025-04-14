@@ -34,7 +34,7 @@ public class CreateSalesHandler : IRequestHandler<AddSaleCommand, CreateSalesRes
     /// </summary>
     /// <param name="command">The CreateSales command</param>
     /// <param name="cancellationToken">Cancellation token</param>
-    /// <returns>The created user details</returns>
+    /// <returns>The created sales details</returns>
     public async Task<CreateSalesResult> Handle(AddSaleCommand command, CancellationToken cancellationToken)
     {
         var validator = new CreateSalesCommandValidator();

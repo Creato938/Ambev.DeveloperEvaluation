@@ -5,12 +5,12 @@ using FluentValidation;
 namespace Ambev.DeveloperEvaluation.WebApi.Features.Sales.CreateSales;
 
 /// <summary>
-/// Validator for CreateUserRequest that defines validation rules for user creation.
+/// Validator for CreateSalesRequest that defines validation rules for sales creation.
 /// </summary>
 public class CreateSalesRequestValidator : AbstractValidator<CreateSalesRequest>
 {
     /// <summary>
-    /// Initializes a new instance of the CreateUserRequestValidator with defined validation rules.
+    /// Initializes a new instance of the CreateSalesRequestValidator with defined validation rules.
     /// </summary>
     /// <remarks>
     /// Validation rules include:
